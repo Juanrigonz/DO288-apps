@@ -13,7 +13,7 @@ config_s2i
 echo "---> Installing application source"
 cp -Rf /tmp/src/*.html ./
 
-DATE=`date "+%b %d, %Y @ %H:%M %p"`
+DATE=`date "+%Y/%md/%d"`
 
 echo "---> Creating info page"
 echo "Page built 1 on $DATE" >> ./info.html
